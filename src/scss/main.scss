@@ -1,13 +1,14 @@
 @import "~normalize.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&display=swap');
 @import "_variables";
-@import "modules/hello.scss";
+
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: #E6E7EB;
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: 'Open Sans';
 }
